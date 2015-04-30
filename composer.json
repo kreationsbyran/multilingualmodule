@@ -1,0 +1,14 @@
+{
+	"name": "silverstripe/multilingual",
+	"description": "Multilingual support for pages, dataobjects and Siteconfig",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "multilingual", "multi language support"],
+	"homepage": "https://github.com/kreationsbyran/multilingual",
+	"authors": [{
+		"name": "Herbert Cuba Garcia",
+		"email": "herbert@kbweb.se"
+	}],
+	"require": {
+		"silverstripe/framework": "~3.1"
+	}
+}

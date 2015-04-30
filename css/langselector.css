@@ -1,0 +1,41 @@
+#lang {
+	position: relative;
+	z-index: 999;
+}
+#lang ul{
+	float:right;
+	margin:0;
+	list-style-type: none;
+}
+#lang li{
+	font-size:10px;
+	float:right;
+	margin:0 10px 0 0;
+	list-style-type: none;
+}
+#lang li a{
+	font-size:1em;
+	text-decoration: none;
+	border:0;
+}
+#lang li a,
+#lang li a span{
+	line-height: 1.4em;
+	float:left;
+	opacity:0.6;
+	color:#111;
+	text-decoration: none;
+	border:0;
+}
+#lang li a.selected,
+#lang li a:hover{
+	opacity:1;
+	text-decoration: underline;
+}
+#lang li img{
+	float:left;
+	margin:0 2px 0 0;
+	border:0px;
+	background: none !important;
+	height:15px;
+}

@@ -1,0 +1,155 @@
+/*Compositefield*/
+body .right form div.CompositeField.multilingualfield {
+	margin-left:0px;
+}
+body .right form div.CompositeField.multilingualfield label.left {
+	margin-left:0px;
+	width:auto;
+	float:none;
+	margin-bottom:0px;
+}
+
+.marked-label{
+	margin-left:5px;
+	min-width: 35px;
+	display:inline-block;
+	height: 12px;
+}
+.marked-label img{
+	float:left;
+	height: 15px;
+}
+.marked-label .highlight{
+	background:#111;
+	color:#eee;
+	padding:1px;
+}
+.marked-label .language-nice{
+	background:transparent;
+	color:#666;
+	padding:1px;
+	opacity: 0.1;
+	
+}
+.marked-label:hover .language-nice{
+	-webkit-transition: all 0.3s ease-in-out;
+	-mozilla-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	opacity: 1;
+	background:#111;
+	color:#eee;
+}
+
+.field.hiddenfield{
+	display:none;
+}
+.bulkImageUploadUpdateForm .field.hiddenfield{
+	display:block;
+}
+/*
+Language selector in admin
+*/
+#TopLangSelectorDropdown{
+	float:right;
+	clear:none;
+}
+
+
+/*LANGUAGES & FLAGS*/
+/*
+Language link list in admin
+*/
+#TopLangSelector.langflags{
+	
+	list-style-type: none;
+	/*padding:0px;*/
+	list-style-type: none;
+	margin: 5px 24px 10px;
+}
+#TopLangSelector.langflags label{
+	padding-bottom: 5px;
+}
+.LeftAndMain #TopLangSelector.langflags{
+	margin-bottom:-10px;
+	margin-right:25px;
+	margin-top:5px;	
+}
+.CMSSettingsController #TopLangSelector.langflags{
+	margin:0px;
+	margin-bottom:5px;
+	margin-top:-5px;
+}
+#TopLangSelector.langflags .lang-holder{
+	margin-top:5px;	
+}
+.langflags div{
+	float:left;	
+}
+.langflags div a{
+	display:inline-block;
+	padding:1px;	
+	margin:0px;
+	opacity:0.4;
+}
+.langflags div a span{
+	font-size:10px;
+	padding:0 5px 4px 2px;
+	display:inline-block;
+	vertical-align:bottom;
+	color:#111;
+}
+.langflags div a.disabled{
+	opacity:0.5;
+	background:#000;
+	background:url(/multilingual/images/flag-cross.png) no-repeat 3px 2px ;
+}
+.langflags div a.disabled img{
+	opacity:0.4;
+}
+.langflags div a img{
+	margin:0px;
+	padding:0px 1px;		
+	
+	border:1px solid #aaa;
+	border-top-color: #ccc;
+	border-bottom-color: #999;
+	box-shadow:0 1px 2px #ccc;
+	-moz-box-shadow:0 1px 2px #ccc;
+	-webkit-box-shadow:0 1px 2px #ccc;
+	height:16px;
+	background:#ccc;
+}
+.langflags div a:hover,
+.langflags div a.selected{	
+	opacity:1;		
+}
+.langflags div a:hover img,
+.langflags div a.selected img{
+	background:#fff;
+}
+.langflags div a.disabled:hover,
+.langflags div a.selected.disabled{
+	opacity:0.5;
+	cursor:default;	
+}
+.langflags div a.disabled:hover img,
+.langflags div a.selected.disabled img{
+	background:#ccc;
+}
+.langflags div a.disabled span{
+	text-decoration: line-through;
+}
+html .multilingualfield>.field.multilingual{	
+	border-bottom: 1px solid #d0d3d5;
+	-webkit-box-shadow: 0 1px 0 rgba(245, 245, 245, 0.8);
+	-moz-box-shadow: 0 1px 0 rgba(245, 245, 245, 0.8);
+	-o-box-shadow: 0 1px 0 rgba(245, 245, 245, 0.8);
+	box-shadow: 0 1px 0 rgba(245, 245, 245, 0.8);
+	padding: 0 0 7px 0;
+	margin: 8px 0;
+}
+
+html .multilingualfield>.field.multilingual.hiddenfield,
+html .multilingualfield>.field.multilingual.urlsegmenthiddenfield{
+    display:none;
+}
